@@ -3,7 +3,7 @@
  box-sizing:border-box
 }
 html {
- font-size:7.5px;
+ font-size:8px;
  line-height:1.25;
  color:#212121
 }
@@ -16,7 +16,7 @@ body {
  height:169.71429rem;
 }
 .body--preview .preview-box {
- margin-top:6rem;
+ margin-top:12rem;
  margin-bottom:6rem;
  height:157.71429rem;
  overflow:hidden
@@ -72,7 +72,7 @@ body {
  -moz-osx-font-smoothing:grayscale
 }
 a {
- color:#212121
+    color:rgb(0, 0, 156);
 }
 .container {
  position:relative;
@@ -87,22 +87,23 @@ a {
  text-align:center
 }
 .top-block__name {
- font-size:3.8rem;
+ font-size:5rem;
  line-height:1;
- font-weight:bold
+ font-weight:bold;
+ text-decoration: underline;
 }
 .top-block__name>span {
  margin-right:0.3rem
 }
 .top-block__position {
- font-size:2.2rem;
+ font-size:3.3rem;
  font-weight:bold;
- margin-top:0.8rem
+ margin-top:3.6rem
 }
 .top-block__address {
  font-size:2rem;
  font-weight:500;
- margin-top:0.9rem
+ margin-top:5rem
 }
 .prologue {
  margin-bottom:0.3rem
@@ -127,7 +128,7 @@ a {
 .section__header {
  text-align:center;
  background-color:#f2f2f2;
- padding:0.8rem 0
+ padding:1.5rem 0
 }
 .section__header-label {
  border-bottom:0.15rem solid black;
@@ -138,7 +139,8 @@ a {
 .section__header-label>span {
  text-transform:uppercase;
  margin-right:0.3rem;
- font-weight:bold
+ font-weight:bold;
+ letter-spacing: 2px;
 }
 .section__content {
  padding:2.5rem 0.3rem
@@ -148,7 +150,8 @@ a {
  -webkit-box-sizing:border-box;
  box-sizing:border-box;
  border-top:0.2rem solid black;
- border-bottom:0.1rem solid black
+ border-bottom:0.1rem solid black;
+ margin-top: 2rem;
 }
 .separator--personal {
  margin-bottom:2rem
@@ -189,12 +192,17 @@ a {
 }
 .details__label {
  float:left;
- width:60%;
+ width:70%;
  font-size:1.8rem
 }
 .details__label>span {
  background-color:white;
- padding-right:0.5rem
+ padding-right:1rem;
+ font-size: 2rem;
+}
+.details__label>.bold {
+ padding-right:0.5rem;
+ font-weight:bold;
 }
 .details__value--link {
  color:inherit;
@@ -205,11 +213,8 @@ a {
 }
 .details__value {
  float:right;
- width:40%;
  text-align:right;
- font-size:1.8rem;
- font-weight:bold;
- font-style:italic
+ font-size:2rem;
 }
 .details__value>span {
  background-color:white;
@@ -231,11 +236,14 @@ a {
  list-style-position:inside
 }
 .socials {
- font-style:italic;
+ /* font-style:italic; */
+ font-size: 2.5rem;
+ display: flex;
+ justify-content: space-evenly;
  color:inherit
 }
 .socials__link {
- color:inherit;
+ color:rgb(0, 0, 156);
  font-weight:bold
 }
 .experience {
@@ -280,7 +288,7 @@ a {
  width:33%;
  float:right;
  text-align:right;
- font-size:1.7rem;
+ font-size:2rem;
  position:relative;
  padding-top:0.4rem
 }
@@ -290,7 +298,7 @@ a {
 }
 .experience__extra {
  position:absolute;
- font-size:1.6rem;
+ font-size:2rem;
  top:2.8rem;
  right:0;
  text-align:right
@@ -312,4 +320,14 @@ a {
  font-style:italic;
  font-size:1.8rem;
  margin-top:0.5rem
+}
+.language__label{
+font-size: 2rem;
+font-weight: bold;
+}
+footer{
+    position: absolute;
+    top: 111%;
+    font-style: italic;
+    font-size:1.5rem;
 }
