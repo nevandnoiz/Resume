@@ -116,7 +116,7 @@ a {
 .prologue__row {
  float:left;
  width:50%;
- font-size:2.2rem;
+ font-size:2rem;
  font-weight:bold
 }
 .prologue__row--email {
@@ -198,7 +198,7 @@ a {
 .details__label>span {
  background-color:white;
  padding-right:1rem;
- font-size: 2rem;
+ font-size: 1.8rem;
 }
 .details__label>.bold {
  padding-right:0.5rem;
@@ -214,7 +214,7 @@ a {
 .details__value {
  float:right;
  text-align:right;
- font-size:2rem;
+ font-size:1.7rem;
 }
 .details__value>span {
  background-color:white;
@@ -237,7 +237,7 @@ a {
 }
 .socials {
  /* font-style:italic; */
- font-size: 2.5rem;
+ font-size: 2.2rem;
  display: flex;
  justify-content: space-evenly;
  color:inherit
@@ -274,7 +274,7 @@ a {
 .experience__title {
  width:66%;
  float:left;
- font-size:2.2rem;
+ font-size:1.8rem;
  font-weight:bold
 }
 .experience__title>span {
@@ -288,7 +288,7 @@ a {
  width:33%;
  float:right;
  text-align:right;
- font-size:2rem;
+ font-size:1.8rem;
  position:relative;
  padding-top:0.4rem
 }
@@ -329,5 +329,5 @@ footer{
     position: absolute;
     top: 108%;
     font-style: italic;
-    font-size:1.5rem;
+    font-size:1.4rem;
 }
